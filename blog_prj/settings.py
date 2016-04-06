@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog_prj',
     'blog',
+    'disqus',
     ]
+
+DISQUS_WEBSITE_SHORTNAME = "shanesblog"
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -126,3 +129,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
