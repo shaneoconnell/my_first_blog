@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'blog_prj',
     'blog',
     'disqus',
+    'django.contrib.sites',
     ]
 
 DISQUS_WEBSITE_SHORTNAME = "shanesblog"
